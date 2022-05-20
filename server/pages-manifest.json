@@ -1,0 +1,19 @@
+{
+  "/404": "pages/404.html",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.html",
+  "/posts": "pages/posts.html",
+  "/works": "pages/works.html",
+  "/works/chatbot": "pages/works/chatbot.html",
+  "/works/integrationsite1": "pages/works/integrationsite1.html",
+  "/works/integrationsite2": "pages/works/integrationsite2.html",
+  "/works/mychat": "pages/works/mychat.html",
+  "/works/pfegmc": "pages/works/pfegmc.html",
+  "/works/postsapp": "pages/works/postsapp.html",
+  "/works/scrollmagic": "pages/works/scrollmagic.html",
+  "/works/snake": "pages/works/snake.html",
+  "/works/tictactoe": "pages/works/tictactoe.html",
+  "/works/videochat": "pages/works/videochat.html",
+  "/_error": "pages/_error.js"
+}
