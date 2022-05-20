@@ -1,8 +1,11 @@
 {
+  "homepage": "http://issamedine.github.io/MyPortfolio",
   "name": "issam-homepage",
   "version": "1.0.0",
   "description": "issam's website",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
@@ -27,6 +30,7 @@
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-next": "^11.1.2",
+    "gh-pages": "^4.0.0",
     "prettier": "^2.4.1"
   }
 }

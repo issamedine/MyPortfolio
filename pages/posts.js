@@ -61,7 +61,7 @@ const Posts = () => (
       {/* <Section delay={0.3}>
       </Section>
       <Section delay={0.5}>
-      </Section> */}
+      </Section> ***/}
     </Container>
   </Layout>
 )
