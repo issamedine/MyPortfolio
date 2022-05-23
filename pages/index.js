@@ -152,9 +152,9 @@ const Home = () => (
             <br />
           </BioYear>
           . I worked on an application to manage pdf invoices: <br />
-          . extraction of values from the document <br />
-          . calculate the ttc and ht <br />
-          . validate the line items <br />
+          . Extraction of values from the document <br />
+          . Calculate the ttc and ht <br />
+          . Validate the line items <br />
           <BioTechnologies>Technologies: Material UI, React JS, Redux.</BioTechnologies>
         </BioMission>
       </Section>
