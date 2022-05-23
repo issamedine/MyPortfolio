@@ -15,3 +15,6 @@ export const BioYear = styled.span`
   font-weight: bold;
   margin-right: 1em;
 `
+export const BioTechnologies = styled.span`
+  background-color: rgba(255, 200, 0, 0.45);
+`

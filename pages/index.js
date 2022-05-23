@@ -13,7 +13,7 @@ import {
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
-import { BioSection, BioMission, BioYear } from '../components/bio'
+import { BioSection, BioMission, BioYear, BioTechnologies } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { IoLogoGithub } from 'react-icons/io5'
@@ -119,6 +119,7 @@ const Home = () => (
           }
           <br />
           . Tablet and mobile responsive <br />
+          <BioTechnologies>Technologies: SASS, React JS, Redux, Node JS, Express JS, MongoDB.</BioTechnologies>
         </BioMission>
         <BioMission>
           <BioYear>
@@ -133,6 +134,7 @@ const Home = () => (
             ". Profile of each client where their assigned projects are and other details"
           }
           <br />
+          <BioTechnologies>Technologies: Bootstrap, React JS, Redux, Node JS, Express JS, MongoDB.</BioTechnologies>
         </BioMission>
         <BioMission>
           <BioYear>
@@ -141,8 +143,8 @@ const Home = () => (
           </BioYear>
           . I worked on a CMS developed by washington post which named ARC CMS
           intended for newspaper applications, this cms developed with React JS
-          and manages several applications at the same time <br />.
-          Technologies: SASS, React JS, Redux, Node JS, Express JS, MongoDB.
+          and manages several applications at the same time. <br />
+          <BioTechnologies>Technologies: React JS, Redux, Tailwind.</BioTechnologies>
         </BioMission>
         <BioMission>
           <BioYear>
@@ -153,6 +155,7 @@ const Home = () => (
           . extraction of values from the document <br />
           . calculate the ttc and ht <br />
           . validate the line items <br />
+          <BioTechnologies>Technologies: Material UI, React JS, Redux.</BioTechnologies>
         </BioMission>
       </Section>
 
