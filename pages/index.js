@@ -127,9 +127,7 @@ const Home = () => (
           </BioYear>
           . Developing a part of a customer management application: <br />
           . Authentification <br />
-          . process de creation des projets et le joindre
-          <br />
-          {". Process for assigning user to a project(s) with limit"}
+          . Project administration views
           <br />
           {
             ". Profile of each client where their assigned projects are and other details"
