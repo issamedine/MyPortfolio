@@ -125,7 +125,7 @@ const Home = () => (
             <u>EMIKETIC</u>
             <br />
           </BioYear>
-          . Develop a customer management application: <br />
+          . Developing a part of a customer management application: <br />
           . Authentification <br />
           . process de creation des projets et le joindre
           <br />
