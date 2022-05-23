@@ -151,7 +151,7 @@ const Home = () => (
             <u>Open Bee</u>
             <br />
           </BioYear>
-          . Develop an application to manage pdf invoices: <br />
+          . I worked on an application to manage pdf invoices: <br />
           . extraction of values from the document <br />
           . calculate the ttc and ht <br />
           . validate the line items <br />
