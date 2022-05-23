@@ -86,11 +86,11 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2013</BioYear>
-          {"Bac+2 - Institut Supérieur de l'Informatique, Tunis."}
+          {"Bac+2 - Higher Institute of Computer Science, Tunis."}
         </BioSection>
         <BioSection>
           <BioYear>2018</BioYear>
-          Développeur front-end as a freelance
+          Freelance front end developer
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
@@ -98,7 +98,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2020</BioYear>
-          joined a training full-stack js at Go my code!
+          Joined a training full-stack js at Go my code!
         </BioSection>
 
         <BioSection>
@@ -112,14 +112,13 @@ const Home = () => (
             <br />
           </BioYear>
           . Developing a part of a booking application: <br />
-          . authentification <br />
-          . dashboard 70% <br />
+          . Authentification <br />
+          . Dashboard 70% <br />
           {
-            ". process d'ajout un/des chambres avec ces options de comfort et le publier"
+            ". Administration of rooms, basket and hotel reservations (Addition/Deletion/Modification)"
           }
           <br />
-          {". process ajout au panier la reservation d'un/des chambres"} <br />
-          . responsive tablette et mobile <br />
+          . Tablet and mobile responsive <br />
         </BioMission>
         <BioMission>
           <BioYear>
@@ -127,13 +126,13 @@ const Home = () => (
             <br />
           </BioYear>
           . Develop a customer management application: <br />
-          . authentification <br />
+          . Authentification <br />
           . process de creation des projets et le joindre
           <br />
-          {". process d'affectation des clients à un/des projet avec limite"}
+          {". Process for assigning user to a project(s) with limit"}
           <br />
           {
-            ". profile de chaque client où se trouve ses projets affecté et d'autres détails"
+            ". Profile of each client where their assigned projects are and other details"
           }
           <br />
         </BioMission>
