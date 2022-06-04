@@ -18,3 +18,8 @@ export const BioYear = styled.span`
 export const BioTechnologies = styled.span`
   background-color: rgba(255, 200, 0, 0.45);
 `
+
+export const BioDescription = styled.span`
+  background-color: rgba(255, 200, 0, 0.45);
+`
+

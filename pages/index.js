@@ -13,7 +13,13 @@ import {
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
-import { BioSection, BioMission, BioYear, BioTechnologies } from '../components/bio'
+import {
+  BioSection,
+  BioMission,
+  BioYear,
+  BioTechnologies,
+  BioDescription
+} from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { IoLogoGithub } from 'react-icons/io5'
@@ -62,7 +68,15 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Presentation
         </Heading>
-        <Paragraph>{'. Hi, I’m @issam_eddine_bouhouch.'}</Paragraph>
+        <Paragraph>
+          <span>Hi, I’m</span>{' '}
+          <Link
+            href="https://www.linkedin.com/in/issam-eddine-1bb03723b/"
+            target="_blank"
+          >
+            @issam_eddine_bouhouch.
+          </Link>
+        </Paragraph>
         <Paragraph>
           . My background and my passion for IT, have allowed me to acquire
           technical and practical knowledge essential to the exercise of this
@@ -86,7 +100,7 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2013</BioYear>
-          {"Bac+2 - Higher Institute of Computer Science, Tunis."}
+          {'Bac+2 - Higher Institute of Computer Science, Tunis.'}
         </BioSection>
         <BioSection>
           <BioYear>2018</BioYear>
@@ -94,7 +108,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-          Worked at Youlead! as a web integrator
+          Worked at YZEO! as a web integrator
         </BioSection>
         <BioSection>
           <BioYear>2020</BioYear>
@@ -108,54 +122,99 @@ const Home = () => (
 
         <BioMission>
           <BioYear>
-            <u>eDonec</u>
+            <u>eDonec</u>: <strong>Booking application - 6 months</strong>
             <br />
           </BioYear>
-          . Developing a part of a booking application: <br />
-          . Authentification <br />
-          . Dashboard 70% <br />
-          {
-            ". Administration of rooms, basket and hotel reservations (Addition/Deletion/Modification)"
-          }
+          <BioDescription>
+            A booking application that helps the user to find a convenient hotel
+            and book a room after he logged in
+          </BioDescription>
           <br />
-          . Tablet and mobile responsive <br />
-          <BioTechnologies>Technologies: SASS, React JS, Redux, Node JS, Express JS, MongoDB.</BioTechnologies>
+          <span>. Working on the authentication process.</span> <br />
+          <span>. Developing dashboard features using Chart JS. </span>
+          <br />
+          <span>
+            . Generating and implementing components for the administration of
+            rooms, baskets and hotel reservations
+            (Addition/Deletion/Modification)
+          </span>
+          <br />
+          <span>. Responsive Design with tablet and mobile views.</span> <br />
+          <BioTechnologies>
+            Technologies: SASS, TypeScript, React JS, Redux, Node JS, Express
+            JS, MongoDB.
+          </BioTechnologies>
         </BioMission>
         <BioMission>
           <BioYear>
-            <u>EMIKETIC</u>
+            <u>EMIKETIC</u>:
+            <strong> Customer management application - 5 months</strong>
             <br />
           </BioYear>
-          . Developing a part of a customer management application: <br />
-          . Authentification <br />
-          . Project administration views
+          <BioDescription>
+            Developing a part of customer management application:
+          </BioDescription>
           <br />
-          {
-            ". Profile of each client where their assigned projects are and other details"
-          }
+          <span>. Working on the authentication process.</span> <br />
+          <span>
+            . Integrating models for the project administration components.
+          </span>
           <br />
-          <BioTechnologies>Technologies: Bootstrap, React JS, Redux, Node JS, Express JS, MongoDB.</BioTechnologies>
+          <span>. Adjusting and Implementing design for the project.</span>{' '}
+          <br />
+          <span>
+            . Working with Rest Api and branching between the backend and the
+            frontend.
+          </span>
+          <br />
+          <BioTechnologies>
+            Technologies: Bootstrap, React JS, Redux, Axios, Node JS, Express
+            JS, MongoDB.
+          </BioTechnologies>
         </BioMission>
         <BioMission>
           <BioYear>
-            <u>TANIT WEB</u>
+            <u>TANIT WEB</u>:
+            <strong> Electronic diary application - 3 months</strong>
             <br />
           </BioYear>
-          . I worked on a CMS developed by washington post which named ARC CMS
-          intended for newspaper applications, this cms developed with React JS
-          and manages several applications at the same time. <br />
-          <BioTechnologies>Technologies: React JS, Redux, Tailwind.</BioTechnologies>
+          <BioDescription>
+            A CMS developed by Washington post named ARC CMS is intended for
+            newspaper applications and managing them at the same time.
+          </BioDescription>
+          <span>.Taking initial concepts and developing project plans.</span>{' '}
+          <br />.
+          <span>
+            Integrating of models (Responsive Design & Pixel perfect).
+          </span>
+          <br />
+          <BioTechnologies>
+            Technologies: React JS, Redux, Tailwind.
+          </BioTechnologies>
         </BioMission>
         <BioMission>
           <BioYear>
-            <u>Open Bee</u>
+            <u>Open Bee</u>: <strong> Smart capture - 4 months</strong>
             <br />
           </BioYear>
-          . I worked on an application to manage pdf invoices: <br />
-          . Extraction of values from the document <br />
-          . Calculate the ttc and ht <br />
-          . Validate the line items <br />
-          <BioTechnologies>Technologies: Material UI, React JS, Redux.</BioTechnologies>
+          <BioDescription>
+            A web application that helps the user to invoice gis PDFs that are
+            based in a specified folder
+          </BioDescription>
+          <br />
+          <span>
+            . Reviewing code, debugging problems, and correcting issues.
+          </span>
+          <br />
+          <span>. Generating and implementing generic components.</span> <br />
+          <span>
+            . Extracting new values from documents, and calculating the TTC and
+            HT,...
+          </span>
+          <br />
+          <BioTechnologies>
+            Technologies: Material UI, React JS, Redux, Axios.
+          </BioTechnologies>
         </BioMission>
       </Section>
 
