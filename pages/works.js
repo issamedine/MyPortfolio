@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
@@ -14,7 +15,15 @@ import thumbIntegrationsite1 from '../public/images/works/website1.png'
 import thumbIntegrationsite2 from '../public/images/works/website2.png'
 import thumbScrollmagic from '../public/images/works/scrollmagic.png'
 
-const Works = () => (
+import ReactGA from 'react-ga'
+
+
+const Works = () => {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname)
+  }, [])
+
+  return(
   <Layout title="Works">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
@@ -119,5 +128,5 @@ const Works = () => (
     </Container>
   </Layout>
 )
-
+}
 export default Works
