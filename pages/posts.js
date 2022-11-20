@@ -11,6 +11,7 @@ import nextRouter from '../public/images/medium/next-router.png'
 import gojs from '../public/images/medium/gojs.jpeg'
 
 import ReactGA from 'react-ga'
+import { useEffect } from 'react'
 
 
 const Posts = () => {

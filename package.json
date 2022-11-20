@@ -18,14 +18,19 @@
   "dependencies": {
     "@chakra-ui/icons": "^1.0.15",
     "@chakra-ui/react": "^1.6.9",
+    "@emailjs/browser": "^3.9.1",
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
+    "@sendgrid/mail": "^7.7.0",
+    "dotenv": "^16.0.3",
     "framer-motion": "^4.1.17",
     "next": "^11.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-ga": "^3.3.1",
+    "react-hook-geolocation": "^1.1.0",
     "react-icons": "^4.3.1",
+    "sparkpost": "^2.1.4",
     "three": "^0.133.1"
   },
   "devDependencies": {
