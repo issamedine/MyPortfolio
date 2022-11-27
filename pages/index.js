@@ -229,7 +229,7 @@ const Home = () => (
             An application that brings together the best features to allow talented trainers to broadcast online courses to as many people as possible
           </BioDescription>
           <br />
-          <span>. Gestion et adaptation des solutions techniques des fonctionnalités du l'application web.</span> <br />
+          <span>. Gestion et adaptation des solutions techniques des fonctionnalités du l’application web.</span> <br />
           <span>. Gestion de la maintenance du site web.. </span>
           <br />
           <span>. Responsive Design with tablet and mobile views.</span> <br />
