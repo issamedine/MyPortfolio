@@ -111,7 +111,7 @@ const Home = () => (
           Worked at YZEO! as a web integrator
         </BioSection>
         <BioSection>
-          <BioYear>2020</BioYear>
+          <BioYear>January 2020</BioYear>
           Joined a training full-stack js at Go my code!
         </BioSection>
 
@@ -214,6 +214,27 @@ const Home = () => (
           <br />
           <BioTechnologies>
             Technologies: Material UI, React JS, Redux, Axios.
+          </BioTechnologies>
+        </BioMission>
+        <BioSection>
+          <BioYear>Since September 2022</BioYear>
+          {'Working as a full-stack JavaScript developer'}
+        </BioSection>
+        <BioMission>
+          <BioYear>
+            <u>Slash Up Studio</u>: <strong>KOORS application</strong>
+            <br />
+          </BioYear>
+          <BioDescription>
+            An application that brings together the best features to allow talented trainers to broadcast online courses to as many people as possible
+          </BioDescription>
+          <br />
+          <span>. Gestion et adaptation des solutions techniques des fonctionnalités du l'application web.</span> <br />
+          <span>. Gestion de la maintenance du site web.. </span>
+          <br />
+          <span>. Responsive Design with tablet and mobile views.</span> <br />
+          <BioTechnologies>
+            Technologies: SASS, TypeScript, React JS, Next JS, Redux, Node JS, Express JS, MongoDB.
           </BioTechnologies>
         </BioMission>
       </Section>
