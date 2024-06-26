@@ -119,36 +119,10 @@ const Home = () => (
           <BioYear>Since August 2020</BioYear>
           {'Working as a consultant full-stack JavaScript developer'}
         </BioSection>
-
-        <BioMission>
-          <BioYear>
-            <u>eDonec</u>: <strong>Booking application - 6 months</strong>
-            <br />
-          </BioYear>
-          <BioDescription>
-            A booking application that helps the user to find a convenient hotel
-            and book a room after he logged in
-          </BioDescription>
-          <br />
-          <span>. Working on the authentication process.</span> <br />
-          <span>. Developing dashboard features using Chart JS. </span>
-          <br />
-          <span>
-            . Generating and implementing components for the administration of
-            rooms, baskets and hotel reservations
-            (Addition/Deletion/Modification)
-          </span>
-          <br />
-          <span>. Responsive Design with tablet and mobile views.</span> <br />
-          <BioTechnologies>
-            Technologies: SASS, TypeScript, React JS, Redux, Node JS, Express
-            JS, MongoDB.
-          </BioTechnologies>
-        </BioMission>
         <BioMission>
           <BioYear>
             <u>EMIKETIC</u>:
-            <strong> Customer management application - 5 months</strong>
+            <strong> Customer management application</strong>
             <br />
           </BioYear>
           <BioDescription>
@@ -172,48 +146,30 @@ const Home = () => (
             JS, MongoDB.
           </BioTechnologies>
         </BioMission>
+
         <BioMission>
           <BioYear>
-            <u>TANIT WEB</u>:
-            <strong> Electronic diary application - 3 months</strong>
+            <u>Metis Innovations Group</u>: <strong>Booking application</strong>
             <br />
           </BioYear>
           <BioDescription>
-            A CMS developed by Washington post named ARC CMS is intended for
-            newspaper applications and managing them at the same time.
-          </BioDescription>
-          <span>.Taking initial concepts and developing project plans.</span>{' '}
-          <br />.
-          <span>
-            Integrating of models (Responsive Design & Pixel perfect).
-          </span>
-          <br />
-          <BioTechnologies>
-            Technologies: React JS, Redux, Tailwind.
-          </BioTechnologies>
-        </BioMission>
-        <BioMission>
-          <BioYear>
-            <u>Open Bee</u>: <strong> Smart capture - 4 months</strong>
-            <br />
-          </BioYear>
-          <BioDescription>
-            A web application that helps the user to invoice gis PDFs that are
-            based in a specified folder
+            A booking application that helps the user to find a convenient hotel
+            and book a room after he logged in
           </BioDescription>
           <br />
+          <span>. Working on the authentication process.</span> <br />
+          <span>. Developing dashboard features using Chart JS. </span>
+          <br />
           <span>
-            . Reviewing code, debugging problems, and correcting issues.
+            . Generating and implementing components for the administration of
+            rooms, baskets and hotel reservations
+            (Addition/Deletion/Modification)
           </span>
           <br />
-          <span>. Generating and implementing generic components.</span> <br />
-          <span>
-            . Extracting new values from documents, and calculating the TTC and
-            HT,...
-          </span>
-          <br />
+          <span>. Responsive Design with tablet and mobile views.</span> <br />
           <BioTechnologies>
-            Technologies: Material UI, React JS, Redux, Axios.
+            Technologies: SASS, TypeScript, React JS, Redux, Node JS, Express
+            JS, MongoDB.
           </BioTechnologies>
         </BioMission>
         <BioSection>
