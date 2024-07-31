@@ -146,8 +146,7 @@ const Home = () => (
         </BioMission>
         <BioMission>
           <BioYear>
-            <u>EMIKETIC</u>:
-            <strong> Customer management application</strong>
+            <u>EMIKETIC</u>:<strong> Customer management application</strong>
             <br />
           </BioYear>
           <BioDescription>
@@ -181,15 +180,51 @@ const Home = () => (
             <br />
           </BioYear>
           <BioDescription>
-            An application that brings together the best features to allow talented trainers to broadcast online courses to as many people as possible
+            An application that brings together the best features to allow
+            talented trainers to broadcast online courses to as many people as
+            possible
           </BioDescription>
           <br />
-          <span>. Gestion et adaptation des solutions techniques des fonctionnalités du l’application web.</span> <br />
-          <span>. Gestion de la maintenance du site web.. </span>
+          <span>
+            . Management and adaptation of technical solutions for the functionalities of a web application.
+          </span>{' '}
+          <br />
+          <span>. Website maintenance management. </span>
           <br />
           <span>. Responsive Design with tablet and mobile views.</span> <br />
           <BioTechnologies>
-            Technologies: SASS, TypeScript, React JS, Next JS, Redux, Node JS, Express JS, MongoDB.
+            Technologies: SASS, TypeScript, React JS, Next JS, Redux, Node JS,
+            Express JS, MongoDB.
+          </BioTechnologies>
+        </BioMission>
+        <BioSection>
+          <BioYear>Since September 2023</BioYear>
+          {'CEO & Founder'}
+        </BioSection>
+        <BioMission>
+          <BioYear>
+            <u>Art Of Coding</u>:
+            <br />
+          </BioYear>
+          <strong>ClickDar application</strong>
+          <BioDescription>
+            Development of a real estate application featuring 360° property
+            visualization, Google Maps integration for location, and a modern
+            dashboard for agencies to manage listings and access detailed
+            statistics. Includes a chat with the owner and an elegant design
+            with advanced animations for an optimal user experience.
+          </BioDescription>
+          <br />
+          <span>
+            {`. Led a freelance team consisting of a commercial representative, two developers, and a designer.`}
+          </span>{' '}
+          <br />
+          <span>{`. Negotiated with potential partners or investors.`}</span>
+          <br />
+          <span>{`. Full-stack JavaScript development, covering both frontend and backend applications.`}</span> <br />
+          <BioTechnologies>
+            Technologies: SASS, TypeScript, Next JS, Redux toolikit, Node JS,
+            Nest JS, GraphQL, MongoDB.
           </BioTechnologies>
         </BioMission>
       </Section>
