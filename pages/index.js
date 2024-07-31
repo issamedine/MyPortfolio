@@ -121,6 +121,31 @@ const Home = () => (
         </BioSection>
         <BioMission>
           <BioYear>
+            <u>eDonec</u>: <strong>Booking application</strong>
+            <br />
+          </BioYear>
+          <BioDescription>
+            A booking application that helps the user to find a convenient hotel
+            and book a room after he logged in
+          </BioDescription>
+          <br />
+          <span>. Working on the authentication process.</span> <br />
+          <span>. Developing dashboard features using Chart JS. </span>
+          <br />
+          <span>
+            . Generating and implementing components for the administration of
+            rooms, baskets and hotel reservations
+            (Addition/Deletion/Modification)
+          </span>
+          <br />
+          <span>. Responsive Design with tablet and mobile views.</span> <br />
+          <BioTechnologies>
+            Technologies: SASS, TypeScript, React JS, Redux, Node JS, Express
+            JS, MongoDB.
+          </BioTechnologies>
+        </BioMission>
+        <BioMission>
+          <BioYear>
             <u>EMIKETIC</u>:
             <strong> Customer management application</strong>
             <br />
@@ -143,32 +168,6 @@ const Home = () => (
           <br />
           <BioTechnologies>
             Technologies: Bootstrap, React JS, Redux, Axios, Node JS, Express
-            JS, MongoDB.
-          </BioTechnologies>
-        </BioMission>
-
-        <BioMission>
-          <BioYear>
-            <u>Metis Innovations Group</u>: <strong>Booking application</strong>
-            <br />
-          </BioYear>
-          <BioDescription>
-            A booking application that helps the user to find a convenient hotel
-            and book a room after he logged in
-          </BioDescription>
-          <br />
-          <span>. Working on the authentication process.</span> <br />
-          <span>. Developing dashboard features using Chart JS. </span>
-          <br />
-          <span>
-            . Generating and implementing components for the administration of
-            rooms, baskets and hotel reservations
-            (Addition/Deletion/Modification)
-          </span>
-          <br />
-          <span>. Responsive Design with tablet and mobile views.</span> <br />
-          <BioTechnologies>
-            Technologies: SASS, TypeScript, React JS, Redux, Node JS, Express
             JS, MongoDB.
           </BioTechnologies>
         </BioMission>
