@@ -222,7 +222,7 @@ const Home = () => (
           <br />
           <span>{`. Full-stack JavaScript development, covering both frontend and backend applications.`}</span> <br />
           <BioTechnologies>
-            Technologies: SASS, TypeScript, Next JS, Redux toolikit, Node JS,
+            Technologies: SASS, TypeScript, Next JS, Redux toolkit, Node JS,
             Nest JS, GraphQL, MongoDB.
           </BioTechnologies>
         </BioMission>
