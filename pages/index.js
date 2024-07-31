@@ -203,10 +203,9 @@ const Home = () => (
         </BioSection>
         <BioMission>
           <BioYear>
-            <u>Art Of Coding</u>:
+            <u>Art Of Coding</u>: <strong>ClickDar application</strong>
             <br />
           </BioYear>
-          <strong>ClickDar application</strong>
           <BioDescription>
             Development of a real estate application featuring 360° property
             visualization, Google Maps integration for location, and a modern
