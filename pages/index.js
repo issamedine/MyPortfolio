@@ -121,54 +121,71 @@ const Home = () => (
         </BioSection>
         <BioMission>
           <BioYear>
-            <u>eDonec</u>: <strong>Booking application</strong>
+            <u>Tanit Web</u>: <strong>Lavenir application</strong>
             <br />
           </BioYear>
           <BioDescription>
-            A booking application that helps the user to find a convenient hotel
-            and book a room after he logged in
+            We used ARC CMS by The Washington Post, a centralized platform for
+            managing multiple newspaper applications. It streamlines editorial
+            workflows and allows for customization, optimizing operations and
+            enhancing editorial impact.
           </BioDescription>
           <br />
-          <span>. Working on the authentication process.</span> <br />
-          <span>. Developing dashboard features using Chart JS. </span>
-          <br />
+          <span>. Take initial concepts and develop project plans.</span> <br />
           <span>
-            . Generating and implementing components for the administration of
-            rooms, baskets and hotel reservations
-            (Addition/Deletion/Modification)
+            . Template integration (Responsive Design & Pixel Perfect).
           </span>
           <br />
           <span>. Responsive Design with tablet and mobile views.</span> <br />
           <BioTechnologies>
-            Technologies: SASS, TypeScript, React JS, Redux, Node JS, Express
-            JS, MongoDB.
-          </BioTechnologies>
+            <strong>
+              Technologies: HTML5, SCSS, React.js, Redux, Tailwind, Express.js,
+              Node.js, MongoDB.
+            </strong>
+          </BioTechnologies>{' '}
+          <br />
+          <Link href="https://www.lavenir.net/" target="_blank">
+            <strong style={{ color: '#000' }}>Link:</strong>{' '}
+            https://www.lavenir.net/
+          </Link>
         </BioMission>
         <BioMission>
           <BioYear>
-            <u>EMIKETIC</u>:<strong> Customer management application</strong>
+            <u>Open bee</u>:<strong> Smart capture application</strong>
             <br />
           </BioYear>
           <BioDescription>
-            Developing a part of customer management application:
+            It is a collaborative platform for dematerializing business
+            processes, allowing you to intelligently classify and index all of
+            your original paper or electronic documents. the Smart capture
+            solution offers particularly reliable and advanced intelligent
+            capture features.
           </BioDescription>
           <br />
-          <span>. Working on the authentication process.</span> <br />
           <span>
-            . Integrating models for the project administration components.
+            . Code review, debugging problems and fixing problems.
+          </span>{' '}
+          <br />
+          <span>
+            . Generate and implement generic components and present them in
+            Storybook.
           </span>
           <br />
-          <span>. Adjusting and Implementing design for the project.</span>{' '}
-          <br />
           <span>
-            . Working with Rest Api and branching between the backend and the
-            frontend.
+            . Extract new values ​​from documents, and calculate the TTC and HT
           </span>
           <br />
           <BioTechnologies>
-            Technologies: Bootstrap, React JS, Redux, Axios, Node JS, Express
-            JS, MongoDB.
-          </BioTechnologies>
+            Technologies: HTML5, SASS, React.js, Redux, Material ui.
+          </BioTechnologies>{' '}
+          <br />
+          <Link
+            href="https://contenu.openbee.com/fiche-produit-smart-capture"
+            target="_blank"
+          >
+            <strong style={{ color: '#000' }}>Link:</strong>{' '}
+            https://contenu.openbee.com/fiche-produit-smart-capture
+          </Link>
         </BioMission>
         <BioSection>
           <BioYear>Since September 2022</BioYear>
@@ -186,7 +203,8 @@ const Home = () => (
           </BioDescription>
           <br />
           <span>
-            . Management and adaptation of technical solutions for the functionalities of a web application.
+            . Management and adaptation of technical solutions for the
+            functionalities of a web application.
           </span>{' '}
           <br />
           <span>. Website maintenance management. </span>
@@ -195,7 +213,12 @@ const Home = () => (
           <BioTechnologies>
             Technologies: SASS, TypeScript, React JS, Next JS, Redux, Node JS,
             Express JS, MongoDB.
-          </BioTechnologies>
+          </BioTechnologies>{' '}
+          <br />
+          <Link href="https://www.koors.io/" target="_blank">
+            <strong style={{ color: '#000' }}>Link:</strong>{' '}
+            https://www.koors.io/
+          </Link>
         </BioMission>
         <BioSection>
           <BioYear>Since September 2023</BioYear>
@@ -220,7 +243,8 @@ const Home = () => (
           <br />
           <span>{`. Negotiated with potential partners or investors.`}</span>
           <br />
-          <span>{`. Full-stack JavaScript development, covering both frontend and backend applications.`}</span> <br />
+          <span>{`. Full-stack JavaScript development, covering both frontend and backend applications.`}</span>{' '}
+          <br />
           <BioTechnologies>
             Technologies: SASS, TypeScript, Next JS, Redux toolkit, Node JS,
             Nest JS, GraphQL, MongoDB.
