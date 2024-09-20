@@ -211,8 +211,8 @@ const Home = () => (
           <br />
           <span>. Responsive Design with tablet and mobile views.</span> <br />
           <BioTechnologies>
-            Technologies: SASS, TypeScript, React JS, Next JS, Redux, Node JS,
-            Express JS, MongoDB.
+            Technologies: SASS, TypeScript, React JS, Next JS, Redux, Node JS, Express JS, MongoDB,
+            Docker, Jira, GitLab, DataDog.
           </BioTechnologies>{' '}
           <br />
           <Link href="https://www.koors.io/" target="_blank">
@@ -222,32 +222,29 @@ const Home = () => (
         </BioMission>
         <BioSection>
           <BioYear>Since September 2023</BioYear>
-          {'CEO & Founder'}
+          {'Full-stack JavaScript developer'}
         </BioSection>
         <BioMission>
           <BioYear>
-            <u>Art Of Coding</u>: <strong>ClickDar application</strong>
+            <u>Gray Matter</u>: <strong>Origin application</strong>
             <br />
           </BioYear>
           <BioDescription>
-            Development of a real estate application featuring 360° property
-            visualization, Google Maps integration for location, and a modern
-            dashboard for agencies to manage listings and access detailed
-            statistics. Includes a chat with the owner and an elegant design
-            with advanced animations for an optimal user experience.
+            An insurance app that allows users to compare, purchase and manage
+            their insurance policies online, offering quick support and real-time notifications.
           </BioDescription>
           <br />
           <span>
-            {`. Led a freelance team consisting of a commercial representative, two developers, and a designer.`}
+            {`. Manage the integration of APIs for insurance services (contract management, claims, notifications) and the implementation of advanced features (chatbots, real-time notifications).`}
           </span>{' '}
           <br />
-          <span>{`. Negotiated with potential partners or investors.`}</span>
-          <br />
-          <span>{`. Full-stack JavaScript development, covering both frontend and backend applications.`}</span>{' '}
+          <span>{`. Design the front-end and back-end architecture of the application in JavaScript (React.js for the
+front-end, Node.js/NestJS for the back-end), ensuring scalability, security, and
+performance optimization.`}</span>
           <br />
           <BioTechnologies>
-            Technologies: SASS, TypeScript, Next JS, Redux toolkit, Node JS,
-            Nest JS, GraphQL, MongoDB.
+            Technologies: SASS, TypeScript, React JS, Redux, Node JS, Nest JS, GraphQL, MongoDB,
+            Docker, Jira, GitLab
           </BioTechnologies>
         </BioMission>
       </Section>
@@ -277,7 +274,7 @@ const Home = () => (
           </ListItem>
           <ListItem>
             <Link
-              href="https://www.linkedin.com/in/issam-eddine-bouhouch-1bb03723b/"
+              href="https://linkedin.com/in/issam-eddine-32a2a5315/"
               target="_blank"
             >
               <Button
