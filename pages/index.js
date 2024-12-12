@@ -121,6 +121,27 @@ const Home = () => (
         </BioSection>
         <BioMission>
           <BioYear>
+            <u>EMICETIK</u>: <strong>ERP application</strong>
+            <br />
+          </BioYear>
+          <BioDescription>
+            A customer management application to centralize and organize customer information, track their interactions, and automate administrative tasks to improve customer relations.
+          </BioDescription>
+          <br />
+          <span>. Creation and management of the customer profile system.</span> <br />
+          <span>. Implementation of an analytical dashboard.</span>
+          <br />
+          <span>. Responsive Design with tablet and mobile views.</span> <br />
+          <BioTechnologies>
+            <strong>
+              Technologies: HTML5, SCSS, React.js, Redux, Express.js,
+              Node.js, MongoDB.
+            </strong>
+          </BioTechnologies>{' '}
+          <br />
+        </BioMission>
+        <BioMission>
+          <BioYear>
             <u>Tanit Web</u>: <strong>Lavenir application</strong>
             <br />
           </BioYear>
@@ -197,19 +218,15 @@ const Home = () => (
             <br />
           </BioYear>
           <BioDescription>
-            An application that brings together the best features to allow
-            talented trainers to broadcast online courses to as many people as
-            possible
+            An online education platform offering interactive courses, assessments, and personalized monitoring to allow learners to acquire new skills at their own pace..
           </BioDescription>
           <br />
           <span>
-            . Management and adaptation of technical solutions for the
-            functionalities of a web application.
+            . Implementation of learner performance monitoring.
           </span>{' '}
           <br />
-          <span>. Website maintenance management. </span>
+          <span>. Implementation of real-time notifications and reminders. </span>
           <br />
-          <span>. Responsive Design with tablet and mobile views.</span> <br />
           <BioTechnologies>
             Technologies: SASS, TypeScript, React JS, Next JS, Redux, Node JS, Express JS, MongoDB,
             Docker, Jira, GitLab, DataDog.
@@ -226,25 +243,21 @@ const Home = () => (
         </BioSection>
         <BioMission>
           <BioYear>
-            <u>Gray Matter</u>: <strong>Origin application</strong>
+            <u>ART & CODE</u>: <strong>ClickDar application</strong>
             <br />
           </BioYear>
           <BioDescription>
-            An insurance app that allows users to compare, purchase and manage
-            their insurance policies online, offering quick support and real-time notifications.
+            A real estate application allowing agencies and individuals to publish ads, advanced filters to search for properties, and a dashboard to manage ads.
           </BioDescription>
           <br />
           <span>
-            {`. Manage the integration of APIs for insurance services (contract management, claims, notifications) and the implementation of advanced features (chatbots, real-time notifications).`}
-          </span>{' '}
+            . Supervise the development team by distributing tasks, performing code reviews, and ensuring compliance with best practices.
+          </span>
           <br />
-          <span>{`. Design the front-end and back-end architecture of the application in JavaScript (React.js for the
-front-end, Node.js/NestJS for the back-end), ensuring scalability, security, and
-performance optimization.`}</span>
+          <span>. Negotiating with clients.</span>
           <br />
           <BioTechnologies>
-            Technologies: SASS, TypeScript, React JS, Redux, Node JS, Nest JS, GraphQL, MongoDB,
-            Docker, Jira, GitLab
+            Technologies: SASS, TypeScript, React JS, Redux, Node JS, Nest JS, GraphQL, MongoDB, Jira, GitLab.
           </BioTechnologies>
         </BioMission>
       </Section>
