@@ -94,7 +94,7 @@ const Home = () => (
         </Box>
       </Section>
 
-      <Section delay={0.2}>
+      {/* <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
@@ -260,7 +260,7 @@ const Home = () => (
             Technologies: SASS, TypeScript, React JS, Redux, Node JS, Nest JS, GraphQL, MongoDB, Jira, GitLab.
           </BioTechnologies>
         </BioMission>
-      </Section>
+      </Section> */}
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
