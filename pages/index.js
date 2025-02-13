@@ -94,7 +94,7 @@ const Home = () => (
         </Box>
       </Section>
 
-      {/* <Section delay={0.2}>
+      <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
@@ -121,28 +121,7 @@ const Home = () => (
         </BioSection>
         <BioMission>
           <BioYear>
-            <u>EMICETIK</u>: <strong>ERP application</strong>
-            <br />
-          </BioYear>
-          <BioDescription>
-            A customer management application to centralize and organize customer information, track their interactions, and automate administrative tasks to improve customer relations.
-          </BioDescription>
-          <br />
-          <span>. Creation and management of the customer profile system.</span> <br />
-          <span>. Implementation of an analytical dashboard.</span>
-          <br />
-          <span>. Responsive Design with tablet and mobile views.</span> <br />
-          <BioTechnologies>
-            <strong>
-              Technologies: HTML5, SCSS, React.js, Redux, Express.js,
-              Node.js, MongoDB.
-            </strong>
-          </BioTechnologies>{' '}
-          <br />
-        </BioMission>
-        <BioMission>
-          <BioYear>
-            <u>Tanit Web</u>: <strong>Lavenir application</strong>
+            <u>eDonec</u>: <strong>Lavenir application</strong>
             <br />
           </BioYear>
           <BioDescription>
@@ -260,7 +239,31 @@ const Home = () => (
             Technologies: SASS, TypeScript, React JS, Redux, Node JS, Nest JS, GraphQL, MongoDB, Jira, GitLab.
           </BioTechnologies>
         </BioMission>
-      </Section> */}
+        <BioMission>
+          <BioYear>
+            <u>GRAY MATTER</u>: <strong>Origin application</strong>
+            <br />
+          </BioYear>
+          <BioDescription>
+            This project consisted of designing and developing an innovative web platform for the
+            insurance sector, aimed at the Canadian and North American markets. The platform
+            allows users to purchase insurance, manage their policies, track their
+            claims and interact with insurance advisors. The goal was to provide a
+            smooth, secure and personalized user experience, while respecting
+            local regulations.
+          </BioDescription>
+          <br />
+          <span>
+            . Optimization of application loading times by implementing code splitting and lazy loading with React and Webpack.
+          </span>
+          <br />
+          <span>. Implemented client-side (localStorage, sessionStorage) and server-side (Redis) caching to reduce repetitive API calls.</span>
+          <br />
+          <BioTechnologies>
+            Technologies: SASS, TypeScript, React JS, Redux, Node JS, Nest JS, GraphQL, MongoDB, StoryBook, Jira, GitLab.
+          </BioTechnologies>
+        </BioMission>
+      </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
