@@ -7,7 +7,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "next dev -H 0.0.0.0",
-    "build": "next build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
     "start": "next start",
     "prettier": "prettier -write .",
     "lint": "next lint"
@@ -38,6 +38,6 @@
     "prettier": "^2.4.1"
   },
   "engines": {
-    "node": "22.11.0"
+    "node": "18"
   }
 }
