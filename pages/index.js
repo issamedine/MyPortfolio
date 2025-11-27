@@ -217,28 +217,9 @@ const Home = () => (
           </Link>
         </BioMission>
         <BioSection>
-          <BioYear>Since September 2023</BioYear>
+          <BioYear>Since September 2024</BioYear>
           {'Full-stack JavaScript developer'}
         </BioSection>
-        <BioMission>
-          <BioYear>
-            <u>ART & CODE</u>: <strong>ClickDar application</strong>
-            <br />
-          </BioYear>
-          <BioDescription>
-            A real estate application allowing agencies and individuals to publish ads, advanced filters to search for properties, and a dashboard to manage ads.
-          </BioDescription>
-          <br />
-          <span>
-            . Supervise the development team by distributing tasks, performing code reviews, and ensuring compliance with best practices.
-          </span>
-          <br />
-          <span>. Negotiating with clients.</span>
-          <br />
-          <BioTechnologies>
-            Technologies: SASS, TypeScript, React JS, Redux, Node JS, Nest JS, GraphQL, MongoDB, Jira, GitLab.
-          </BioTechnologies>
-        </BioMission>
         <BioMission>
           <BioYear>
             <u>GRAY MATTER</u>: <strong>Origin application</strong>
@@ -262,6 +243,30 @@ const Home = () => (
           <BioTechnologies>
             Technologies: SASS, TypeScript, React JS, Redux, Node JS, Nest JS, GraphQL, MongoDB, StoryBook, Jira, GitLab.
           </BioTechnologies>
+        </BioMission>
+        <BioMission>
+          <BioYear>
+            <u>Habitiz</u>: <strong>ClickDar application</strong>
+            <br />
+          </BioYear>
+          <BioDescription>
+            A real estate application allowing agencies and individuals to publish ads, advanced filters to search for properties, and a dashboard to manage ads.
+          </BioDescription>
+          <br />
+          <span>
+            . Supervise the development team by distributing tasks, performing code reviews, and ensuring compliance with best practices.
+          </span>
+          <br />
+          <span>. Negotiating with clients.</span>
+          <br />
+          <BioTechnologies>
+            Technologies: SASS, TypeScript, React JS, Redux, Node JS, Nest JS, GraphQL, MongoDB, Jira, GitLab.
+          </BioTechnologies>
+          <br />
+          <Link href="https://www.habitiz.com/" target="_blank">
+            <strong style={{ color: '#000' }}>Link:</strong>{' '}
+            https://www.habitiz.com/
+          </Link>
         </BioMission>
       </Section>
 
