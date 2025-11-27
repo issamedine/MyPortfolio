@@ -246,7 +246,7 @@ const Home = () => (
         </BioMission>
         <BioMission>
           <BioYear>
-            <u>Habitiz</u>: <strong>ClickDar application</strong>
+            <u>Habitiz</u>: <strong>Real Estate application</strong>
             <br />
           </BioYear>
           <BioDescription>
@@ -260,7 +260,7 @@ const Home = () => (
           <span>. Negotiating with clients.</span>
           <br />
           <BioTechnologies>
-            Technologies: SASS, TypeScript, React JS, Redux, Node JS, Nest JS, GraphQL, MongoDB, Jira, GitLab.
+            Technologies: SASS, TypeScript, Next JS, Redux Toolkit, Node JS, Nest JS, GraphQL, MongoDB, Jira, GitLab.
           </BioTechnologies>
           <br />
           <Link href="https://www.habitiz.com/" target="_blank">
