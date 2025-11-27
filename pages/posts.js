@@ -47,22 +47,6 @@ const Posts = () => {
               thumbnail={ComponentWillMount}
               href="https://medium.com/@issam.eddine.bouhoush/the-equivalent-of-componentwillmount-in-react-hooks-76f4bb49161f"
             />
-            <GridItem
-              title="HOC - React JS"
-              thumbnail={HOC}
-              href="https://medium.com/edonec/reactjs-higher-order-components-the-fundamental-and-how-to-replace-them-with-hooks-3aeae857769d"
-            />
-            <GridItem
-              title="Snake game - React JS"
-              thumbnail={snake}
-              href="https://medium.com/edonec/snake-game-with-react-js-hooks-600a742e70b7"
-            />
-            <GridItem
-              title="How to build a simple application with GoJS (diagramming library)"
-              thumbnail={gojs}
-              href="https://medium.com/edonec/how-to-build-a-simple-application-with-gojs-diagramming-library-5692a66103c4"
-            />
-          </SimpleGrid>
         </Section>
 
         {/* <Section delay={0.3}>

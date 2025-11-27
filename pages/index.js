@@ -121,7 +121,7 @@ const Home = () => (
         </BioSection>
         <BioMission>
           <BioYear>
-            <u>eDonec</u>: <strong>Lavenir application</strong>
+            <u>Tanit Web</u>: <strong>Lavenir application</strong>
             <br />
           </BioYear>
           <BioDescription>
