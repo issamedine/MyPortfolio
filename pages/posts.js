@@ -3,16 +3,12 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-import HOC from '../public/images/medium/HOC.jpeg'
-import snake from '../public/images/medium/snake.png'
 import ComponentWillMount from '../public/images/medium/ComponentWillMount.jpeg'
 import memorization from '../public/images/medium/memorization.jpeg'
 import nextRouter from '../public/images/medium/next-router.png'
-import gojs from '../public/images/medium/gojs.jpeg'
 
 import ReactGA from 'react-ga'
 import { useEffect } from 'react'
-
 
 const Posts = () => {
   useEffect(() => {
