@@ -47,6 +47,7 @@ const Posts = () => {
               thumbnail={ComponentWillMount}
               href="https://medium.com/@issam.eddine.bouhoush/the-equivalent-of-componentwillmount-in-react-hooks-76f4bb49161f"
             />
+          </SimpleGrid>
         </Section>
       </Container>
     </Layout>
