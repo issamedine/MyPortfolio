@@ -48,11 +48,6 @@ const Posts = () => {
               href="https://medium.com/@issam.eddine.bouhoush/the-equivalent-of-componentwillmount-in-react-hooks-76f4bb49161f"
             />
         </Section>
-
-        {/* <Section delay={0.3}>
-      </Section>
-      <Section delay={0.5}>
-      </Section> ***/}
       </Container>
     </Layout>
   )
